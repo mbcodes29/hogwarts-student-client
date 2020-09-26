@@ -11,4 +11,11 @@
     padding: 5px;
     text-decoration: none;
     color: black;
+    cursor: url('http://www.rw-designer.com/cursor-view/26747.png'), auto;
 }
+
+
+.navbarlink:hover {
+  cursor: url('http://www.rw-designer.com/cursor-view/26747.png'), auto;
+}
+

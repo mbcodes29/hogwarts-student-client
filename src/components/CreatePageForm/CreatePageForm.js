@@ -71,11 +71,11 @@ export default class CreatePageForm extends React.Component {
     console.log(this.context)
     return (
       <form className="create-form" onSubmit={this.handleSubmit}>
-        <label>
+        <label className="label-class">
           Pick your student's preferred pronouns:
           <br />
-          <select name="pronouns" onChange={this.handleChange} required>
-            <option value="">select</option>
+          <select className="select-class" name="pronouns" onChange={this.handleChange} required>
+            <option className="option-class" value="">select</option>
             <option value="she-her">She/Her</option>
             <option value="he-him">He/Him</option>
             <option value="they-them">They/Them</option>
@@ -84,11 +84,11 @@ export default class CreatePageForm extends React.Component {
 
         <br />
         <br />
-        <label>
+        <label className="label-class">
           Choose a pet:
           <br />
-          <select name="pet" onChange={this.handleChange} required>
-            <option value="">select</option>
+          <select className="select-class" name="pet" onChange={this.handleChange} required>
+            <option className="option-class" value="">select</option>
             <option value="Owl">Owl</option>
             <option value="Cat">Cat</option>
             <option value="Toad">Toad</option>
@@ -97,11 +97,11 @@ export default class CreatePageForm extends React.Component {
 
         <br />
         <br />
-        <label>
+        <label className="label-class">
           Choose your wand type:
           <br />
-          <select name="wandType" onChange={this.handleChange} required>
-            <option value="">select</option>
+          <select className="select-class" name="wandType" onChange={this.handleChange} required>
+            <option className="option-class" value="">select</option>
             <option value="birch">Birch</option>
             <option value="ash">Ash</option>
             <option value="alder">Alder</option>
@@ -115,11 +115,11 @@ export default class CreatePageForm extends React.Component {
 
         <br />
         <br />
-        <label>
+        <label className="label-class">
           Choose your wand core:
           <br />
-          <select name="wandCore" onChange={this.handleChange} required>
-            <option value="">select</option>
+          <select className="select-class" name="wandCore" onChange={this.handleChange} required>
+            <option className="option-class" value="">select</option>
             <option value="unicorn">Unicorn</option>
             <option value="dragon">Dragon</option>
             <option value="phoenix">Phoenix</option>
@@ -128,11 +128,11 @@ export default class CreatePageForm extends React.Component {
 
         <br />
         <br />
-        <label>
+        <label className="label-class">
           Choose a favorite subject:
           <br />
-          <select name="favoriteSubject" onChange={this.handleChange} required>
-            <option value="">select</option>
+          <select className="select-class" name="favoriteSubject" onChange={this.handleChange} required>
+            <option className="option-class" value="">select</option>
             <option value="transfiguration">Transfiguration</option>
             <option value="charms">Charms</option>
             <option value="potions">Potions</option>
@@ -147,7 +147,7 @@ export default class CreatePageForm extends React.Component {
         </label>
         <br />
         <br />
-        <input type="submit" value="Submit" />
+        <input className="input-class" type="submit" value="Submit" />
       </form>
     )
   }
