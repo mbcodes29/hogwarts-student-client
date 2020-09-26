@@ -8,15 +8,15 @@ body {
   color: rgb(32, 23, 23);
   padding: 40px;
   font-family: Arial;
-  cursor: url('http://www.rw-designer.com/cursor-view/26747.png'), auto;
+  cursor: url('../images/cursor.png'), auto;
   /* opacity: 0.5; */
   /* background: rgba(0, 0, 0, .5); */
 }
 
 body:hover {
-  cursor: url('http://www.rw-designer.com/cursor-view/26747.png'), auto;
+  cursor: url('../images/cursor.png'), auto;
 }
 
 body button {
-  cursor: url('http://www.rw-designer.com/cursor-view/26747.png'), auto;
+  cursor: url('../images/cursor.png'), auto;
 }
